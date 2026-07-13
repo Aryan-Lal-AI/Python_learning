@@ -12,7 +12,7 @@ price = 11.99
 is_in_middle_school = False
 
 # Now I will type cast each of these to a different data type and print their data types
-first_name = bool(first_name)
+has_name = bool(first_name)
 age = float(age)
 price = int(price)
 is_in_middle_school = str(is_in_middle_school)
