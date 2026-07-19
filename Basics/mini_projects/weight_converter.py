@@ -3,7 +3,7 @@
 # This program will convert kg to lbs and lbs to kg
 # This will help me practice if/else statements and user input
 kg_to_lbs_ratio = 2.205
-unit = input("Please enter your weight unit (KG/LBS): ").upper()
+unit = input("Please enter your weight unit (KG/LBS): ").upper().strip()
 
 if unit == "KG":
     weight = float(input(f"Please enter your weight in {unit} using digits: "))
